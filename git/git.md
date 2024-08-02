@@ -107,7 +107,7 @@ git add <file-name>
 ```
 ---
 # Ignoring Files
-```sh 
+```txt 
 .gitignore
 
 *.out
@@ -141,13 +141,18 @@ git checkout <branch-name>
 git switch <branch-name>
 ```
 ---
-# Rollback Changes
+# Rolling back Changes
 ```sh 
+# View the commit, without saving changes
+git checkout <commit>
+# Revert changes made by creating a new commit
 git revert <commit>
 ```
-Note that the commit's hash must be used, not its message. You find the hash by looking at the logs.
+
+Note that <commit> should be replaced with the unique id generated for each commit
 
 ---
+
 # Merge Branches
 ```sh 
 git checkout <branch-to-merge-to>

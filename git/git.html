@@ -120,7 +120,7 @@ git status -s
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-paginate="true" data-theme="uncover" lang="en-US" data-marpit-pagination="21" style="--paginate:true;--theme:uncover;" data-marpit-pagination-total="31">
 <h1 id="ignoring-files">Ignoring Files</h1>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-sh">.gitignore
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-txt">.gitignore
 
 *.out
 </code></pre>
@@ -152,10 +152,13 @@ git switch &lt;branch-name&gt;
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" data-paginate="true" data-theme="uncover" lang="en-US" data-marpit-pagination="26" style="--paginate:true;--theme:uncover;" data-marpit-pagination-total="31">
-<h1 id="rollback-changes">Rollback Changes</h1>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-sh">git revert &lt;commit&gt;
+<h1 id="rolling-back-changes">Rolling back Changes</h1>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-sh"><span class="hljs-comment"># View the commit, without saving changes</span>
+git checkout &lt;commit&gt;
+<span class="hljs-comment"># Revert changes made by creating a new commit</span>
+git revert &lt;commit&gt;
 </code></pre>
-<p>Note that the commit's hash must be used, not its message. You find the hash by looking at the logs.</p>
+<p>Note that &lt;commit&gt; should be replaced with the unique id generated for each commit</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" data-paginate="true" data-theme="uncover" lang="en-US" data-marpit-pagination="27" style="--paginate:true;--theme:uncover;" data-marpit-pagination-total="31">
 <h1 id="merge-branches">Merge Branches</h1>
