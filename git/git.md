@@ -25,7 +25,7 @@ An initiative where students teach students.
 ---
 # The Purpose Of This Presentation
 - Teach the basics of version control and collaborative programming
-- A system to manage all projects in an accessible way that allows for cross-pollination.
+- Equip all of you with the ability to manage your own projects with ease.
 
 ---
 # Problems I Noticed
@@ -34,6 +34,28 @@ An initiative where students teach students.
 - Making duplicates of files that get lost.
 ---
 # What Is Git? 
+* Git tracks the changes you make to your files
+* Git is local
+* Git tends to only add data
+
+---
+
+
+---
+# Necessary Vocabulary 
+- Commit
+- Repository
+- Branch
+- Staging
+---
+
+# How Does Git Work? 
+
+---
+# Git is a camera, for your filesystem.
+
+---
+# Git is also a time machine
 
 ---
 # The Three States
@@ -42,19 +64,16 @@ An initiative where students teach students.
 3. Commited
 
 ---
-# Git Is A Time Machine
+# The Basic Git Workflow
+1. You modify files.
+2. Stage only the changes which should be part of the next commit 
+3. Commit, storing that snapshot permanently to your Git directory.
 
 ---
-# A DSA Detour
-Git uses linked lists to keep track of commits.
+# Doubts?
 
 ---
-
-
-
-
-# Installation Process
-This is for Windows users, Mac and Linux users don't have to do anything.
+# Installation
 
 ---
 # Email And Name
@@ -132,6 +151,10 @@ git merge <branch-to-be-merged-with>
 ```sh 
 git branch -d <branch-name>
 ```
+---
+# Demo Workflow
+A quick demonstration of how I use git.
+
 ---
 # Meta Information
 - This presentation was built with a framework called Marp

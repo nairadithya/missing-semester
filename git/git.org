@@ -1,8 +1,6 @@
 #+title: Git Workshop
 #+AUTHOR: Adithya Nair
 * Starting With Some Motivation
-# Insert Picture Of WhatsApp Message Of Code
-# Insert Picture Of Multiple "Final" Filenames.
 ** The Problems Git Solves
 Version control solves two main problems.
 1. You can confidently move forward in your projects, if you have saved states that you have annotated.
