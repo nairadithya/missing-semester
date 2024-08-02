@@ -141,13 +141,6 @@ git checkout <branch-name>
 git switch <branch-name>
 ```
 ---
-# Rollback Changes
-```sh 
-git revert <commit>
-```
-Note that the commit's hash must be used, not its message. You find the hash by looking at the logs.
-
----
 # Merge Branches
 ```sh 
 git checkout <branch-to-merge-to>
