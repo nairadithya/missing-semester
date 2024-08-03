@@ -1,15 +1,9 @@
 #+title: Git Workshop
 #+AUTHOR: Adithya Nair
-* Introduce
-* Explain Missing Semester
 * What This Presentation Will Cover
 Version control solves two main problems.
 1. You can confidently move forward in your projects, if you have saved states that you have annotated.
 2. You can confidently work in teams, making changes to the projects independently.
-* Starting With Some Motivation
-** The Problems Git Solves
-** Usage In Industries
-** A Note
 * How Git Works
 #+begin_quote
 "When you do actions in Git, nearly all of them only add data to the Git database. It is hard to get the system to do anything that is not undoable or to make it erase data in any way." from Pro Git.
@@ -20,15 +14,6 @@ Git has three main states:
 1. Modified
 2. Staged
 3. Commited
-** A Time Machine
-** A Glossary
-*** Repository
-*** Branches
-*** Commits
-# Commits are a linked list.
-*** Stashing
-*** Snapshots
-** TODO Every Repo Copy Is Self-Contained.
 ** We Will Be Using The CLI
 We will use the CLI only for the purposes of this workshop, and I highly suggest sticking with the CLI until you're familiar enough. Once you learn the CLI, you can use any GUI but you don't really learn the CLI from the GUI.
 * Installation
@@ -123,7 +108,6 @@ You can use this command to see exactly what you've changed.
 #+begin_src shell
 git diff
 #+end_src
-** Rollback Changes
 ** Create A New Branch
 #+begin_src shell
 git branch <branch-name>
@@ -143,29 +127,7 @@ git merge <branch-to-be-merged-with>
 #+begin_src shell
 git branch -d <branch-name>
 #+end_src
-** Remote Repository Sync
-#+begin_src shell
-# To download newest changes from repo
-git pull
-# To sync local changes to remote repo
-git push
-#+end_src
-** Stashing
-** Tagging
-* Example Workflow
-* Community
-** Pull Requests
-** Discussions
-** Putting Up Issues
 * References
-- [https://www.youtube.com/watch?v=2sjqTHE0zok][MIT Lecture on Git.]]
+- [[https://www.youtube.com/watch?v=2sjqTHE0zok][MIT Lecture on Git.]]
 - [[https://git-scm.com/book/en/v2][Pro Git, A comprehensive look into git.]]
 - [[https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html][A note about commit messages]]-
-
-
-* GITHUB
-** Github Education
-** Heatmap
-** Actions
-* Missing Semester
-Vennela - Self-hosting
