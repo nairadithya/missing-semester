@@ -1,10 +1,13 @@
 #+title: Git Workshop
 #+AUTHOR: Adithya Nair
-* Starting With Some Motivation
-** The Problems Git Solves
+* Introduce
+* Explain Missing Semester
+* What This Presentation Will Cover
 Version control solves two main problems.
 1. You can confidently move forward in your projects, if you have saved states that you have annotated.
 2. You can confidently work in teams, making changes to the projects independently.
+* Starting With Some Motivation
+** The Problems Git Solves
 ** Usage In Industries
 ** A Note
 * How Git Works
@@ -18,7 +21,7 @@ Git has three main states:
 2. Staged
 3. Commited
 ** A Time Machine
-** TODO A Glossary
+** A Glossary
 *** Repository
 *** Branches
 *** Commits
@@ -82,16 +85,6 @@ Setup your name and email. This is how git commits will be seen, so that we know
 git config --global user.name "Adithya Nair"
 git config --global user.email "adithyanair121@gmail.com"
 #+end_src
-Setup your editor of choice
-#+begin_src shell
-# For VS Code
-git config --global core.editor "code --wait"
-# For Emacs
-git config --global core.editor emacs
-# For NeoVim
-git config --global core.editor "nvim -f"
-#+end_src
-You might be wondering why I am adding the `--wait` to vscode, that's because it allows git to wait for a signal from VS Code. This will come in handy when we're trying to use our editor of choice to write commit messages.
 * Commands
 ** Initialize A Repo
 #+begin_src shell
@@ -174,3 +167,5 @@ git push
 ** Github Education
 ** Heatmap
 ** Actions
+* Missing Semester
+Vennela - Self-hosting
