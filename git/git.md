@@ -147,6 +147,8 @@ git switch <branch-name>
 git checkout <commit>
 # Revert changes made by creating a new commit
 git revert <commit>
+# Use this for a hard reset NOT RECOMMENDED
+git reset --hard <commit>
 ```
 
 Note that <commit> should be replaced with the unique id generated for each commit
@@ -166,6 +168,9 @@ git branch -d <branch-name>
 ---
 # Demo Workflow
 A quick demonstration of how I use git.
+
+---
+# An Organization For Hosting Your Project Repos
 
 ---
 # Meta Information
